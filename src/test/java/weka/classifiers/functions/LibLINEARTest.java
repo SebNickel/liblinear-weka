@@ -1,3 +1,6 @@
+// This does not work with any weka build available on Maven Central, because these builds do not include the test classes. :(
+// Hence missing class: weka.classifier.AbstractClassifierTest
+
 /*
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by
@@ -17,7 +20,7 @@
 /*
  * Copyright (C) 2008 University of Waikato, Hamilton, New Zealand
  */
-
+/*
 package weka.classifiers.functions;
 
 import junit.framework.Test;
@@ -25,21 +28,22 @@ import junit.framework.TestSuite;
 import weka.classifiers.AbstractClassifierTest;
 import weka.classifiers.Classifier;
 
-
+*/
 /**
  * Tests LibLINEAR. Run from the command line with: <p/>
  * java weka.classifiers.functions.LibLINEARTest
  *
  * @author Benedikt Waldvogel
  */
+/*
 public class LibLINEARTest extends AbstractClassifierTest {
 
     public LibLINEARTest( String name ) {
         super(name);
     }
-
+*/
     /** Creates a default SMO */
-    public Classifier getClassifier() {
+/*    public Classifier getClassifier() {
         return new LibLINEAR();
     }
 
@@ -51,3 +55,4 @@ public class LibLINEARTest extends AbstractClassifierTest {
         junit.textui.TestRunner.run(suite());
     }
 }
+*/
