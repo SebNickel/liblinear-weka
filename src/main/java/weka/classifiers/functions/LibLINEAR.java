@@ -65,13 +65,13 @@ import de.bwaldvogel.liblinear.SolverType;
 
 /**
   <!-- globalinfo-start -->
-  * A wrapper class for the liblinear classifier.<br/>
+  * <p>A wrapper class for the liblinear classifier.<br>
   * Rong-En Fan, Kai-Wei Chang, Cho-Jui Hsieh, Xiang-Rui Wang, Chih-Jen Lin (2008). LIBLINEAR - A Library for Large Linear Classification. URL http://www.csie.ntu.edu.tw/~cjlin/liblinear/.
-  * <p/>
+  * </p>
   <!-- globalinfo-end -->
  *
  <!-- technical-bibtex-start -->
- * BibTeX:
+ * <p>BibTeX:</p>
  * <pre>
  * &#64;misc{Fan2008,
  *    author = {Rong-En Fan and Kai-Wei Chang and Cho-Jui Hsieh and Xiang-Rui Wang and Chih-Jen Lin},
@@ -81,11 +81,11 @@ import de.bwaldvogel.liblinear.SolverType;
  *    URL = {http://www.csie.ntu.edu.tw/\~cjlin/liblinear/}
  * }
  * </pre>
- * <p/>
+ *
  <!-- technical-bibtex-end -->
  *
  <!-- options-start -->
- * Valid options are: <p/>
+ * <p>Valid options are: </p>
  *
  * <pre> -S &lt;int&gt;
  *  Set type of solver (default: 1)
@@ -290,10 +290,10 @@ public class LibLINEAR extends AbstractClassifier implements TechnicalInformatio
     }
 
     /**
-     * Sets the classifier options <p/>
+     * <p>Sets the classifier options </p>
      *
      <!-- options-start -->
-     * Valid options are: <p/>
+     * <p>Valid options are: </p>
      *
      * <pre> -S &lt;int&gt;
      *  Set type of solver (default: 1)
